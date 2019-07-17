@@ -146,8 +146,6 @@ KeplerMap.propTypes = {
   store: PropTypes.InstanceOf(Object).isRequired,
 };
 
-// export default KeplerMap;
-
 const mapStateToProps = state => state;
 const dispatchToProps = dispatch => ({ dispatch });
 
